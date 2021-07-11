@@ -2,7 +2,7 @@
   <div>
     <header class="header">
       <h1 class="logo">
-        <a href="https://microcms.io">
+        <a href="https://yoshitaka-log.netlify.app/88hyd6yqd">
           YoshitakaLog
         </a>
       </h1>

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <ul class="lists">
+    <!-- <ul class="lists">
       <li class="list">
         <a href="https://wanta.co.jp">運営会社</a>
       </li>
@@ -16,8 +16,8 @@
       <li class="list">
         <a href="https://microcms.io/contact">お問い合わせ</a>
       </li>
-    </ul>
-    <p class="cr">© Wanta Inc.</p>
+    </ul> -->
+    <p class="cr">Yoshitaka Log</p>
   </footer>
 </template>
 
