@@ -8,7 +8,7 @@
         </p>
       </li>
       <li class="list">
-        <p><strong>わかりやすいかつ有益な情報を発信</strong></p>
+        <p><strong>わかりやすく有益な情報を発信</strong></p>
       </li>
       <!-- <li class="list">
         <p><strong>安心の日本製・日本語でのチャットサポート</strong></p>
