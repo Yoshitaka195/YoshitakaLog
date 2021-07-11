@@ -2,7 +2,7 @@
   <div>
     <header class="header">
       <h1 class="logo">
-        <a href="https://yoshitaka-log.netlify.app/88hyd6yqd">
+        <a href="https://yoshitaka-log.netlify.app">
           YoshitakaLog
         </a>
       </h1>
