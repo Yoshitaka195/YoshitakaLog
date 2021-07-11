@@ -6,7 +6,7 @@
           <img src="/images/icon_twitter.svg" alt="Twitter" />
         </a>
       </li>
-      <li class="shareList">
+      <!-- <li class="shareList">
         <a :href="facebookLink" target="_blank" rel="noopener noreferrer">
           <img src="/images/icon_facebook.svg" alt="Facebook" />
         </a>
@@ -24,7 +24,7 @@
         >
           <img src="/images/icon_feed.svg" alt="フィード" />
         </a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </template>

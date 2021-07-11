@@ -3,7 +3,7 @@
     <header class="header">
       <h1 class="logo">
         <a href="https://microcms.io">
-          <img class="logoImg" src="/images/logo.svg" alt="microCMS" />
+          YoshitakaLog
         </a>
       </h1>
       <button class="menuBtn" @click="toggleOpen()">
@@ -11,7 +11,7 @@
       </button>
       <div v-if="open" class="mask" @click="setOpen(false)"></div>
 
-      <div class="menu" :class="{ isOpen: open }">
+      <!-- <div class="menu" :class="{ isOpen: open }">
         <ul class="lists">
           <li class="list">
             <a href="https://microcms.io/pricing">料金</a>
@@ -36,7 +36,7 @@
             >
           </li>
         </ul>
-      </div>
+      </div> -->
     </header>
     <div class="empty"></div>
   </div>

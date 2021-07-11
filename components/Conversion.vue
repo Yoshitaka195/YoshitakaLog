@@ -1,18 +1,20 @@
 <template>
   <div class="wrapper">
-    <h2 class="pageTitle">microCMSとは</h2>
+    <h2 class="pageTitle">YoshitakaLogとは</h2>
     <ol class="lists">
       <li class="list">
-        <p><strong>開発者、編集者どちらも分かりやすい管理画面</strong></p>
+        <p>
+          <strong>日々の開発から学んだことをアウトプット</strong>
+        </p>
       </li>
       <li class="list">
-        <p><strong>細かな権限管理や豊富な外部サービス・データ連携</strong></p>
+        <p><strong>わかりやすいかつ有益な情報を発信</strong></p>
       </li>
-      <li class="list">
+      <!-- <li class="list">
         <p><strong>安心の日本製・日本語でのチャットサポート</strong></p>
-      </li>
+      </li> -->
     </ol>
-    <div class="actions">
+    <!-- <div class="actions">
       <a
         class="link"
         target="site"
@@ -28,7 +30,7 @@
       >
         <button class="button">microCMSを無料で始める</button>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
