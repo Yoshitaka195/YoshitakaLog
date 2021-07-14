@@ -133,7 +133,7 @@ export default {
   head() {
     return {
       titleTemplate: null,
-      title: 'microCMSブログ',
+      title: 'YoshitakaLog',
     };
   },
 };

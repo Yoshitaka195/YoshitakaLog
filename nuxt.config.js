@@ -20,7 +20,7 @@ export default {
       prefix: 'og: http://ogp.me/ns#',
       lang: 'ja',
     },
-    titleTemplate: '%s | microCMSブログ',
+    titleTemplate: '%s | YoshitakaLog',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -28,12 +28,12 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+          'YoshitakaLogは、日々の開発の記録や学びを発信し、見てくださった方にとって、わかりやすく有益な情報をお届けする技術ブログです。',
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: 'microCMSブログ',
+        content: 'YoshitakaLog',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -41,12 +41,12 @@ export default {
         property: 'og:url',
         content: 'https://blog.microcms.io',
       },
-      { hid: 'og:title', property: 'og:title', content: 'microCMSブログ' },
+      { hid: 'og:title', property: 'og:title', content: 'YoshitakaLog' },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+          'YoshitakaLogは、日々の開発の記録や学びを発信し、見てくださった方にとって、わかりやすく有益な情報をお届けする技術ブログです。',
       },
       {
         hid: 'og:image',
@@ -61,7 +61,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'https://blog.microcms.io/favicon.png',
+        href: '/images/violin.svg',
       },
       {
         rel: 'alternate',
@@ -305,10 +305,10 @@ export default {
       path: '/feed.xml',
       async create(feed) {
         feed.options = {
-          title: 'microCMSブログ',
+          title: 'YoshitakaLog',
           link: 'https://blog.microcms.io/feed.xml',
           description:
-            'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+            'YoshitakaLogは、日々の開発の記録や学びを発信し、見てくださった方にとって、わかりやすく有益な情報をお届けする技術ブログです。',
         };
 
         const posts = await axios
@@ -336,10 +336,10 @@ export default {
       path: '/feed_update.xml',
       async create(feed) {
         feed.options = {
-          title: '更新情報｜microCMSブログ',
+          title: '更新情報｜YoshitakaLog',
           link: 'https://blog.microcms.io/feed.xml',
           description:
-            'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+            'YoshitakaLogは、日々の開発の記録や学びを発信し、見てくださった方にとって、わかりやすく有益な情報をお届けする技術ブログです。',
         };
 
         const posts = await axios
@@ -370,10 +370,10 @@ export default {
       path: '/feed_usecase.xml',
       async create(feed) {
         feed.options = {
-          title: '導入事例｜microCMSブログ',
+          title: '導入事例｜YoshitakaLog',
           link: 'https://blog.microcms.io/feed.xml',
           description:
-            'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+            'YoshitakaLogは、日々の開発の記録や学びを発信し、見てくださった方にとって、わかりやすく有益な情報をお届けする技術ブログです。',
         };
 
         const posts = await axios

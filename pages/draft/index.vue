@@ -7,14 +7,14 @@
         <div v-if="data.ogimage" class="ogimageWrap">
           <img
             ref="ogimage"
-            :src="data.ogimage.url + '?w=820&q=100'"
+            :src="data.ogimage.url + '?w=820&q=100&dpr=8'"
             :srcset="
               data.ogimage.url +
-              '?w=375&q=100 375w,' +
+              '?w=375&q=100&dpr=8 375w,' +
               data.ogimage.url +
-              '?w=750&q=100 750w,' +
+              '?w=750&q=100&dpr=8 750w,' +
               data.ogimage.url +
-              '?w=820&q=100 820w'
+              '?w=820&q=100&dpr=8 820w'
             "
             class="ogimage"
           />
