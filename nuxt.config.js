@@ -105,10 +105,11 @@ export default {
   modules: [
     ['@nuxtjs/dayjs'],
     [
-      '@nuxtjs/google-analytics',
+      '@nuxtjs/google-gtag',
       {
-        id: GA_ID,
-      },
+        id: GA_ID , // GoogleアナリティクスのプロパティID
+        debug: true // 本番環境以外でもGAを有効にしたい場合はtrueに。
+      }
     ],
     ['@nuxtjs/sitemap'],
     '@nuxtjs/feed',
